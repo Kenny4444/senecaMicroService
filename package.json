@@ -1,0 +1,22 @@
+{
+  "name": "senecamicroservice",
+  "version": "1.0.0",
+  "description": "install node stuff:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/venerite/senecamicroservice#readme",
+  "dependencies" : {
+    "seneca":"2.1.0",
+    "mongo-oplog":"1.0.1",
+    "socket.io":"1.4.6",
+    "seneca-mongo-store":"0.2.0"
+  }
+}
